@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="GENERAL" >
+        <EditTextPreference
+            android:key="name"
+            android:summary="Your user name"
+            android:title="Name" />
+        
+        <ListPreference 
+            android:title = "Type"
+            android:key = "type"
+            android:entries="@array/typeOptions"
+            android:entryValues="@array/typeValues"
+            android:defaultValue="type" />
+        
+        <SwitchPreference 
+            android:key="log"
+        	android:title="Log"
+        	android:summary="set log mode on or off"
+        	android:defaultValue="false" />
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

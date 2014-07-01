@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- TYPE -->
+    <string-array name="typeOptions">
+       	<item>Bus</item>
+       	<item>Station</item>
+        <item>Other</item>
+
+    </string-array>
+    
+    <string-array name="typeValues">
+        <item>BUS</item>
+        <item>STATION</item>
+        <item>OTHER</item>
+    </string-array>
+</resources>
